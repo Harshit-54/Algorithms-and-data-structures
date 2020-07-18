@@ -14,7 +14,7 @@ int getans(Node* node, int &maxval){
 
 int maxPathSum(Node* root)
 { 
-    int maxval=INT_MIN;
+    int maxval=INT_MIN
     int ret= getans(root,maxval);
     // code here   
     return maxval;
